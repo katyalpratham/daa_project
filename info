@@ -1,0 +1,53 @@
+# ✈️ Airport Navigation System (Dijkstra Algorithm)
+
+A Python-based GUI application that helps find the shortest path between locations inside an airport using Dijkstra’s Algorithm.
+
+## 🚀 Features
+
+* Add locations (nodes)
+* Add paths with distances (edges)
+* Find shortest distance from a source
+* Visualize graph using NetworkX + Matplotlib
+* Simple Tkinter GUI
+
+## 🧠 Algorithm Used
+
+* Dijkstra’s Algorithm (Greedy)
+
+## 🛠️ Tech Stack
+
+* Python
+* Tkinter
+* NetworkX
+* Matplotlib
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## 📸 Example Input
+
+Nodes:
+gate1, gate2, gate3, lounge, security, exit
+
+Edges:
+gate1,gate2,50
+gate2,gate3,40
+gate1,security,30
+security,lounge,20
+lounge,gate3,25
+gate3,exit,60
+lounge,exit,35
+
+## 📌 Future Improvements
+
+* Show actual shortest path (not just distance)
+* Better UI (dropdowns instead of manual input)
+* Real airport map visualization
+
+## 👨‍💻 Author
+
+Your Name
